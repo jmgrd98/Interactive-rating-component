@@ -1,6 +1,4 @@
-var escolha = document.getElementsByClassName('.number')
+const element = document.querySelector('li')
 
-function selecionar(escolha){
-    onmouseenter = 
+element.style.backgroundColor = "hsl(25, 97%, 53%)";
 
-}
