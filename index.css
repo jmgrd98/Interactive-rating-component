@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+}
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --LightGrey: hsl(217, 12%, 63%);
+    --MediumGrey: hsl(216, 12%, 54%);
+    --DarkBlue: hsl(213, 19%, 18%);
+    --VeryDarkBlue: hsl(216, 12%, 8%);
+    --Orange: hsl(25, 97%, 53%);
+}
+
+body{
+    background-color: var(--VeryDarkBlue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+#card{
+    padding: 20px;
+    width: 50%;
+    height: 50%;
+    background-color: var(--DarkBlue);
+    color: var(--White);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+#icon{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    background-color: var(--LightGrey);
+    width: 30px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#icon img{
+    width: 12px;
+
+}
+
+h1{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+p{
+    color: var(--LightGrey);
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+
+li{
+    background-color: var(--MediumGrey);
+    color: var(--LightGrey);
+    padding: 10px;
+    border-radius: 100px;
+}
+
+button{
+    background-color: var(--Orange);
+    border: none;
+    border-radius: 20px;
+    color: var(--White);
+    padding: 10px;
+}
