@@ -30,12 +30,13 @@ body{
     padding: 20px;
     width: 50%;
     height: 50%;
+    max-width: 350px;
     background-color: var(--DarkBlue);
     color: var(--White);
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    gap: 20px;
+    gap: 30px;
 }
 
 #icon{
@@ -69,16 +70,40 @@ ul{
 }
 
 li{
-    background-color: var(--MediumGrey);
-    color: var(--LightGrey);
-    padding: 10px;
-    border-radius: 100px;
+    background-color: var(--LightGrey);
+    font-size: .8rem;
+    border-radius: 100%;
+    opacity: .7;
 }
 
-button{
+li:hover{
+    opacity: 1;
+}
+
+li:visited{
+    background-color: var(--Orange);
+
+}
+
+.number{
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    color: var(--White);
+}
+
+
+#submit{
+    text-transform: uppercase;
     background-color: var(--Orange);
     border: none;
     border-radius: 20px;
     color: var(--White);
     padding: 10px;
+    font-weight: 700;
+}
+
+#submit:hover{
+    background-color: var(--White);
+    color: var(--Orange);
 }
