@@ -33,15 +33,19 @@
   to help us improve our offering!
   </p>
 
- <ul>
+ <form method="post" action="">
    
-  <li><button class="number" onclick="select()">1</button></li>
-  <li><button class="number" onclick="select()">2</button></li>
-  <li><button class="number" onclick="select()">3</button></li>
-  <li><button class="number" onclick="select()">4</button></li>
-  <li><button class="number" onclick="select()">5</button></li>
+  <fieldset>
 
- </ul>
+  <label><input type="radio" class="number" name="number" value="number1" onclick="select()">1</input></label>
+  <label><input type="radio" class="number" name="number" value="number2" onclick="select()">2</input></label>
+  <label><input type="radio" class="number" name="number" value="number3" onclick="select()">3</input></label>
+  <label><input type="radio" class="number" name="number" value="number4" onclick="select()">4</input></label>
+  <label><input type="radio" class="number" name="number" value="number5" onclick="select()">5</input></label>
+
+</fieldset>
+
+</form>
   
 
   <button type="submit" id="submit">Submit</button>
@@ -66,6 +70,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
-<script src="index.js"></script>
+<script src="index.js" defer></script>
 </body>
 </html>

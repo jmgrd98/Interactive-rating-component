@@ -63,33 +63,45 @@ p{
     color: var(--LightGrey);
 }
 
-ul{
+form{
     display: flex;
     justify-content: space-evenly;
     gap: 25px;
 }
 
-li{
+fieldset{
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    border: none;
+}
+
+button{
     background-color: var(--LightGrey);
     font-size: .8rem;
     border-radius: 100%;
     opacity: .7;
+    border: none;
+    color: var(--White);
+    padding: 10px;
 }
 
-li:hover{
-    opacity: 1;
-}
-
-li:visited{
-    background-color: var(--Orange);
-
+label{
+    background-color: var(--LightGrey);
+    font-size: .8rem;
+    border-radius: 100%;
+    opacity: .7;
+    border: none;
+    color: var(--White);
+    padding: 15px;
 }
 
 .number{
-    padding: 10px;
-    background-color: transparent;
-    border: none;
-    color: var(--White);
+    all: unset;
+}
+
+label:hover{
+    opacity: 1;
 }
 
 
@@ -101,6 +113,7 @@ li:visited{
     color: var(--White);
     padding: 10px;
     font-weight: 700;
+    opacity: 1;
 }
 
 #submit:hover{
