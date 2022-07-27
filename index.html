@@ -33,22 +33,22 @@
   to help us improve our offering!
   </p>
 
- <form method="post" action="">
+ <form method="post" action="submit">
    
   <fieldset>
 
-  <label><input type="radio" class="number" name="number" value="number1" onclick="select()">1</input></label>
-  <label><input type="radio" class="number" name="number" value="number2" onclick="select()">2</input></label>
-  <label><input type="radio" class="number" name="number" value="number3" onclick="select()">3</input></label>
-  <label><input type="radio" class="number" name="number" value="number4" onclick="select()">4</input></label>
-  <label><input type="radio" class="number" name="number" value="number5" onclick="select()">5</input></label>
+  <label for="number"><input type="radio" class="number" onclick="select()">1</inout></label>
+  <label for="number"><input type="radio" class="number" onclick="select()">2</input></label>
+  <label for="number"><input type="radio" class="number" onclick="select()">3</input></label>
+  <label for="number"><input type="radio" class="number" onclick="select()">4</input></label>
+  <label for="number"><input type="radio" class="number" onclick="select()">5</input></label>
 
 </fieldset>
 
 </form>
   
 
-  <button type="submit" id="submit">Submit</button>
+  <button type="submit" id="submit" value="Submit" onclick="submit()">Submit</button>
 
   </section>
 
@@ -56,15 +56,16 @@
 
   <!-- Thank you state start -->
 
-  You selected <!-- Add rating here --> out of 5
+  <section id="feedback-card">
+  <h1>You selected <!-- Add rating here --> out of 5</h1>
 
-  Thank you!
+  <h2>Thank you!</h2>
 
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
+  <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+  don’t hesitate to get in touch!</p>
 
   <!-- Thank you state end -->
-
+</section>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

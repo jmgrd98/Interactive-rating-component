@@ -76,7 +76,7 @@ fieldset{
     border: none;
 }
 
-button{
+.number{
     background-color: var(--LightGrey);
     font-size: .8rem;
     border-radius: 100%;
@@ -96,14 +96,9 @@ label{
     padding: 15px;
 }
 
-.number{
-    all: unset;
-}
-
 label:hover{
     opacity: 1;
 }
-
 
 #submit{
     text-transform: uppercase;
